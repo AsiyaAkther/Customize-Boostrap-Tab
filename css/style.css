@@ -1,0 +1,89 @@
+.customize-tab{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab-pane{
+    border:1px solid #ffcccc;
+    margin-bottom: 25px;
+}
+.tab-content .tab-pane img{
+    width:350px;
+    height:auto;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent;
+}
+.nav-item{
+    border:1px solid #ffcccc;
+    margin:0 10px;
+}
+.nav-item .nav-link img{
+    width:70px;
+    height:auto;
+}
+.button-div{
+    text-align: center;
+}
+/* -- quantity box -- */
+
+.quantity {
+    display: inline-block; 
+    border:1px solid #f7dff5;
+    text-align: center;
+    margin-left:20px;
+}  
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    border:none;
+    font-weight: bold;
+    color:red;
+}
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+.quantity.buttons_added .minus,.quantity.buttons_added .plus {
+    height: 41px;
+    background-color: #ffffff;
+    border:none;
+    cursor:pointer;
+}
+.quantity.buttons_added .plus {
+    border-left: 1px solid #f7dff5; 
+    padding-left: 20px;
+}
+.quantity.buttons_added .minus {
+    padding-right: 20px;
+} 
+.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; 
+}
+.fa-plus,.fa-minus{
+    background-color: gray;
+    color:#fff;
+    padding:5px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.quantity.buttons_added .minus:focus,.quantity.buttons_added .plus:focus {
+    outline: none; 
+}
+.quantity.buttons_added .minus:focus .fa-minus{
+    background-color: #000;
+}
+.quantity.buttons_added .plus:focus .fa-plus{
+    background-color: #000;
+}
+   
+   
